@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Seeker Sign-up</title>
+    <link rel="stylesheet" href="jobseeker sign-up style.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<div class="logo">
+				<a href="#"><img src="./download (2).png" alt="Logo"></a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Free Short Courses</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+    
+    <form id="signup-form">
+        <h2>Job Seeker Sign-up</h2>
+        <div class="form-group">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="full-name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+        <div class="form-group">
+            <label for="birthdate">Birthdate</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+        <button type="button" id="next-btn">Next</button>
+        <button type="button" onclick="location.href='jobseeker login.html'" id="login-btn">Login</button>
+    </form>
+
+    <footer>
+        <div class="footer-content">
+          <p>Email us: example@website.com</p>
+          <p></p>
+          <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>
