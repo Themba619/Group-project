@@ -1,0 +1,47 @@
+* {
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(10, 14, 18, 0.795);
+}
+
+img {
+    width: 6em;
+    border-radius: 0.5px;
+    padding-left: 1em;
+}
+
+.logo {
+    display: flex;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 2em;
+    justify-content: right;
+    
+}
+nav ul li{
+    padding-left: 2em;
+    font-size: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
